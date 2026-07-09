@@ -1,0 +1,30 @@
+# format=machine-manifest
+
+machine: vinyl-printer-cutter
+display_name: Vinyl printer / cutter (Roland BN series)
+
+# Registered web links — cite by id; content lives on the external site unless
+# mirrored under web/*.md or committed as a local PDF + .md pair.
+web:
+  - id: roland-bn2-download-center
+    title: Roland BN2-20/20A/30 download center (manuals, software, videos)
+    url: https://downloadcenter.rolanddg.com/BN2-20
+    kind: manual
+    format: page
+    notes: Main index for BN2 documentation and downloads; supplements in-repo PDFs
+    retrieved: 2026-07-02
+
+  - id: uscutter-clean-cut-60-blade-3pack
+    title: Clean Cut Premium Roland-compatible 60° blade (3 pack)
+    url: https://uscutter.com/Clean-Cut-Premium-Roland-Compatible-60-Blade-3-Pack/
+    kind: supply
+    format: page
+    notes: Aftermarket 60° blade for fine detail and thicker media; fits Roland BN series
+    retrieved: 2026-07-02
+
+  - id: roland-bn20-product
+    title: Roland BN-20 product page
+    url: https://www.rolanddg.com/products/printers/bn-20
+    kind: product
+    format: page
+    retrieved: 2026-07-02
