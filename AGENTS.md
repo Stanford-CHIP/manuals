@@ -19,9 +19,11 @@ This repository stores machine manuals, datasheets, and related reference materi
   <name>.md           # AI-readable conversion (required for every PDF)
   web/                # optional: saved web content as citable markdown
     <slug>.md
+  notes/              # optional: lab / conversation notes (lab-notes-md)
+    <slug>.md
 ```
 
-Machine folders are top-level directories (e.g. `vinyl-printer-cutter/`). Ignore `tools/` and `.github/`.
+Machine folders are top-level directories (e.g. `vinyl-printer-cutter/`). Ignore `tools/`, `docs/`, and `.github/`.
 
 ## Citation formats
 
@@ -55,11 +57,22 @@ Files under `<machine>/web/*.md` are frozen snapshots. Cite by file path and sec
 
 If the file has a `retrieved:` date in its header, mention it when the currency of the information matters.
 
+### Lab notes (`# format=lab-notes-md`)
+
+Files under `<machine>/notes/*.md` capture lab or conversation conclusions. Header must include `with:` (who to follow up with), `date:`, and `sources:` listing frozen `web/*.md` and/or in-repo manual paths. Cite synopsis/conclusions from the note; cite product facts from the frozen sources or PDFs the note points to:
+
+```text
+[vinyl-printer-cutter/notes/printable-htv-clear-vs-opaque.md → ## Conclusions]
+[vinyl-printer-cutter/web/stahls-supertek-matte-clear.md → ## Key constraints]
+```
+
+Do not treat unsourced statements in a note as stronger than the frozen pages they cite.
+
 ## How to answer a question
 
 1. Identify which machine folder(s) apply.
 2. Read `manifest.yaml` for context and registered web links.
-3. Search/read relevant `*.md` files (PDF conversions and `web/*.md`).
+3. Search/read relevant `*.md` files (PDF conversions, `web/*.md`, and `notes/*.md`).
 4. Compose an answer using only verified content; attach citations per claim.
 5. If sources conflict, note the conflict and cite both.
 
