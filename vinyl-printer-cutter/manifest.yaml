@@ -28,3 +28,51 @@ web:
     kind: product
     format: page
     retrieved: 2026-07-02
+
+  - id: roland-heatsoft-satin-htms
+    title: Roland HeatSoft SATIN ESM-HTMS
+    url: https://www.rolanddga.com/products/media/textiles/esm-htms-heat-transfer-media
+    kind: supply
+    format: page
+    notes: Opaque printable HTV; freeze under web/roland-heatsoft-satin-htms.md
+    retrieved: 2026-07-12
+
+  - id: roland-heatsoft-plus-htm3
+    title: Roland HeatSoft PLUS ESM-HTM3
+    url: https://www.rolanddga.com/products/media/textiles/esm-htm3-heat-transfer-material
+    kind: supply
+    format: page
+    notes: Opaque printable HTV; freeze under web/roland-heatsoft-plus-htm3.md
+    retrieved: 2026-07-12
+
+  - id: roland-pgm-ptm2-mask
+    title: Roland HeatSoft PGM-PTM2 transfer mask
+    url: https://www.rolanddga.com/products/media/textiles/pgm-ptm2-polyester-transfer-mask
+    kind: supply
+    format: page
+    notes: Transfer mask for HeatSoft films; freeze under web/roland-pgm-ptm2-mask.md
+    retrieved: 2026-07-12
+
+  - id: siser-ttd-masks
+    title: Siser TTD Easy and High Tack masks
+    url: https://www.siserna.com/ttd-masks/
+    kind: supply
+    format: page
+    notes: Transfer masks for Siser digital media; freeze under web/siser-ttd-masks.md
+    retrieved: 2026-07-12
+
+  - id: stahls-supertek-matte-clear
+    title: Stahls CAD-COLOR SuperTEK Matte Clear
+    url: https://www.stahls.com/printable-heat-transfer-vinyl-supertek-matte
+    kind: supply
+    format: page
+    notes: Clear printable HTV for light fabrics; freeze under web/stahls-supertek-matte-clear.md
+    retrieved: 2026-07-12
+
+  - id: mclogan-supertek-matte-clear
+    title: McLogan buy page — SuperTEK Matte Clear 20in rolls
+    url: https://mclogan.com/products/cad-color-supertek-matte-clear
+    kind: supply
+    format: page
+    notes: US retail variants; freeze under web/mclogan-supertek-matte-clear-buy.md
+    retrieved: 2026-07-12

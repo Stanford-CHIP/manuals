@@ -26,7 +26,9 @@ python tools/pdf_to_md.py vinyl-printer-cutter
 
 **Web snapshots** — for HTML you need to quote reliably, save content under `web/<slug>.md` using `tools/web-source-template.md`.
 
-3. Commit PDFs, generated `.md` files, manifest changes, and any `web/` snapshots together.
+**Lab notes** — for conversation/lab conclusions with a follow-up contact, add `notes/<slug>.md` using `tools/lab-notes-template.md`. Freeze supporting pages under `web/`, list them in the note’s `sources:`, and register live URLs in `manifest.yaml`.
+
+3. Commit PDFs, generated `.md` files, manifest changes, `web/` snapshots, and `notes/` together.
 
 ## Validate locally
 
@@ -41,5 +43,6 @@ CI runs the same checks on every PR. The validator enforces:
 - Each manual `.md` starts with `# format=manual-md`, names its `source_pdf`, and has `## Page N` headings
 - If present, `manifest.yaml` uses `# format=machine-manifest`, includes `machine:`, has unique `web` ids, and uses `http(s)` URLs
 - Each `web/*.md` snapshot starts with `# format=web-source-md` and includes `source_url:` in its header
+- Each `notes/*.md` file starts with `# format=lab-notes-md`, includes `with:`, `date:`, and `sources:`, has Synopsis / Conclusions / Sources headings, and every `sources:` path exists
 
-See [AGENTS.md](AGENTS.md) for how models cite PDFs, manifest links, and web snapshots.
+See [AGENTS.md](AGENTS.md) for how models cite PDFs, manifest links, web snapshots, and lab notes.
