@@ -1,0 +1,15 @@
+# format=machine-manifest
+
+machine: cold-saw
+display_name: KMT C 315/350 circular cold saw (Kalamazoo Machine Tool)
+
+# Registered web links — cite by id; content lives on the external site unless
+# mirrored under web/*.md or committed as a local PDF + .md pair.
+web:
+  - id: surplusrecord-kmt-c315-350-listing
+    title: Surplus Record dealer listing — 14" KMT C 315/350 manual cold saw
+    url: https://surplusrecord.com/listing/14-kmt-c-315-350-manual-cold-saw-6-25-vise-opening-30-60-rpm-3-5-hp-230-460-v-750287/
+    kind: reference
+    format: page
+    notes: Dealer-stated weight and dimensions (not in the in-repo manual); verify with KMT
+    retrieved: 2026-10-27
