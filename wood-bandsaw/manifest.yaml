@@ -1,0 +1,8 @@
+# format=machine-manifest
+
+machine: wood-bandsaw
+display_name: Laguna 14 BX bandsaw
+
+# Registered web links — cite by id; content lives on the external site unless
+# mirrored under web/*.md or committed as a local PDF + .md pair.
+web: []

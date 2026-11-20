@@ -1,0 +1,45 @@
+# format=machine-manifest
+
+machine: drill-press
+display_name: Solberga SE2030 floor drilling machine, manual feed (sold in the US by Willis Machinery)
+
+# Local documents:
+#   SE2030_25.pdf                            Willis SE2030 brochure + US price list
+#   solberga-SE2030-leaflet.pdf              MSC SE2030 leaflet (specs, T-slot, accessory codes)
+#   solberga-25-35mm-user-manual-en.pdf      MSC user manual for all 25-35 mm machines (EN, v3.5 2025)
+#   solberga-30mm-spare-parts.pdf            MSC 30 mm (manual feed) spare parts list
+#   solberga-25-35mm-electrical-diagram.pdf  MSC 25-35 mm electrical diagram (S/N ~412000 on)
+#   willis-SE2030-final-quote-2026-08-07.doc Willis final quote for our machine (original Word file, from Airtable)
+#   willis-SE2030-final-quote-2026-08-07.pdf Text-only PDF rendering of that quote (for the .md conversion)
+
+# Registered web links — cite by id; content lives on the external site unless
+# mirrored under web/*.md or committed as a local PDF + .md pair.
+web:
+  - id: mscab-se2030-product
+    title: Machinery Scandinavia (Solberga) SE2030 product page
+    url: https://www.mscab.se/en/varumarken/pelarborrmaskin-se2030/
+    kind: reference
+    format: page
+    notes: Variants (SE2030, M = power feed, F, B, BM, MF), accessories, leaflet downloads
+    retrieved: 2026-11-11
+  - id: mscab-downloads
+    title: Machinery Scandinavia downloads (manuals, spare parts lists, electrical diagrams)
+    url: https://www.mscab.se/en/downloads/
+    kind: reference
+    format: page
+    notes: Covers machines built 2020 on; for older machines contact sparepart@mscab.se
+    retrieved: 2026-11-11
+  - id: willis-solberga-drills
+    title: Willis Machinery — Solberga gear drive drills
+    url: https://www.willismachinery.com/solberga-gear-drive-drills
+    kind: reference
+    format: page
+    notes: US dealer; options (chuck guard, reversing, coolant) are quote-only
+    retrieved: 2026-11-11
+  - id: purchase-list-sheet
+    title: CHIP Equipment - Purchase Lists & Maintenance, Drill Press tab (Google Sheet)
+    url: https://docs.google.com/spreadsheets/d/1Jvj1QprOdbAly1tXXc7k_fdsHQdv2QiQeZu4yF_q6Z8/edit#gid=10
+    kind: reference
+    format: page
+    notes: Buy list and maintenance schedule built from the in-repo documents; replaces the standalone SE2030 sheet. Prices as of 2026-11-11
+    retrieved: 2026-11-19
